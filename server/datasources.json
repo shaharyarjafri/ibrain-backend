@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "sqlserverdb": {
+    "host": "localhost",
+    "port": 3005,
+    "url": "mssql://sa:sasasa-1@localhost:3005/test_db",
+    "database": "test_db",
+    "password": "sasasa-1",
+    "name": "sqlserverdb",
+    "connector": "mssql",
+    "user": "sa"
+  }
+}

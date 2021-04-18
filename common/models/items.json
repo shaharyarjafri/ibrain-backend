@@ -1,0 +1,112 @@
+{
+  "name": "Items",
+  "plural": "Items",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Id": {
+      "type": "number",
+      "id": true,
+      "generated": true
+    },
+    "Name": {
+      "type": "string",
+      "required": false
+    },
+    "ItemSize": {
+      "type": "string",
+      "required": true
+    },
+    "SIUnit": {
+      "type": "string",
+      "required": true
+    },
+    "Price": {
+      "type": "string",
+      "required": true
+    },
+    "Image": {
+      "type": "string",
+      "required": true
+    },
+    "Manufacturer": {
+      "type": "string",
+      "required": true
+    },
+    "ProductCode": {
+      "type": "string",
+      "required": true
+    },
+    "BarCode": {
+      "type": "string",
+      "required": true
+    },
+    "CategoryId": {
+      "type": "number",
+      "required": true
+    },
+    "Description": {
+      "type": "string",
+      "required": true
+    },
+    "TotalQuantity": {
+      "type": "number",
+      "required": true
+    },
+    "IsActive": {
+      "type": "boolean",
+      "required": true
+    },
+    "AddedOn": {
+      "type": "date",
+      "required": true
+    },
+    "AddedBy": {
+      "type": "string",
+      "required": true
+    },
+    "Discount": {
+      "type": "number",
+      "required": true
+    },
+    "IsFeatured": {
+      "type": "boolean",
+      "required": true
+    },
+    "PrescriptionRequire": {
+      "type": "boolean",
+      "required": true
+    },
+    "Image2": {
+      "type": "string",
+      "required": true
+    },
+    "Image3": {
+      "type": "string",
+      "required": true
+    },
+    "Imag4": {
+      "type": "string",
+      "required": true
+    },
+    "Image5": {
+      "type": "string",
+      "required": true
+    },
+    "Origin": {
+      "type": "string",
+      "required": true
+    },
+    "DiscountByPercent": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
