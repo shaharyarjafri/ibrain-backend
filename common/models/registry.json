@@ -1,6 +1,6 @@
 {
   "name": "registry",
-  "base": "PersistedModel",
+  "base": "User",
   "idInjection": true,
   "options": {
     "validateUpsert": true
@@ -22,7 +22,17 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+
+    "accessTokens": {
+      "type": "hasMany",
+      "model": "AccessToken",
+      "foreignKey": "id",
+      "options": {
+        "disableInclude": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
